@@ -16,6 +16,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
     - name: Bundle Install
-      run:  bundle install
+      run: |
+       fastlane add_plugin lizard
+       bundle install
     - name: Metrics
       run: bundle exec fastlane metrics
