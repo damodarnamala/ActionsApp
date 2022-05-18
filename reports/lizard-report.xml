@@ -1,0 +1,126 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/terryyin/lizard/master/lizard.xsl"?>
+<cppncss>
+	<measure type="Function">
+		<labels>
+			<label>Nr.</label>
+			<label>NCSS</label>
+			<label>CCN</label>
+		</labels>
+		<item name="testDamodar(...) at ./ActionsTests/ArthimaticSpec.swift:11">
+			<value>1</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="3.0"/>
+		<average label="CCN" value="1.0"/>
+		<item name="setUpWithError(...) at ./ActionsTests/ActionsTests.swift:13">
+			<value>2</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="tearDownWithError(...) at ./ActionsTests/ActionsTests.swift:17">
+			<value>3</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="testExampleThreeGreaterThanOne(...) at ./ActionsTests/ActionsTests.swift:21">
+			<value>4</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="2.5"/>
+		<average label="CCN" value="1.0"/>
+		<item name="setUpWithError(...) at ./ActionsUITests/ActionsUITests.swift:12">
+			<value>5</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="tearDownWithError(...) at ./ActionsUITests/ActionsUITests.swift:21">
+			<value>6</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="testExample(...) at ./ActionsUITests/ActionsUITests.swift:25">
+			<value>7</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="testLaunchPerformance(...) at ./ActionsUITests/ActionsUITests.swift:33">
+			<value>8</value>
+			<value>6</value>
+			<value>2</value>
+		</item>
+		<average label="NCSS" value="3.125"/>
+		<average label="CCN" value="1.125"/>
+		<item name="setUpWithError(...) at ./ActionsUITests/ActionsUITestsLaunchTests.swift:16">
+			<value>9</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="testLaunch(...) at ./ActionsUITests/ActionsUITestsLaunchTests.swift:20">
+			<value>10</value>
+			<value>8</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="3.6"/>
+		<average label="CCN" value="1.1"/>
+		<average label="NCSS" value="3.6"/>
+		<average label="CCN" value="1.1"/>
+		<average label="NCSS" value="3.6"/>
+		<average label="CCN" value="1.1"/>
+	</measure>
+	<measure type="File">
+		<labels>
+			<label>Nr.</label>
+			<label>NCSS</label>
+			<label>CCN</label>
+			<label>Functions</label>
+		</labels>
+		<item name="./ActionsTests/ArthimaticSpec.swift">
+			<value>1</value>
+			<value>6</value>
+			<value>1</value>
+			<value>1</value>
+		</item>
+		<item name="./ActionsTests/ActionsTests.swift">
+			<value>2</value>
+			<value>11</value>
+			<value>3</value>
+			<value>3</value>
+		</item>
+		<item name="./ActionsUITests/ActionsUITests.swift">
+			<value>3</value>
+			<value>19</value>
+			<value>5</value>
+			<value>4</value>
+		</item>
+		<item name="./ActionsUITests/ActionsUITestsLaunchTests.swift">
+			<value>4</value>
+			<value>17</value>
+			<value>2</value>
+			<value>2</value>
+		</item>
+		<item name="./Actions/ActionsApp.swift">
+			<value>5</value>
+			<value>9</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="./Actions/ContentView.swift">
+			<value>6</value>
+			<value>13</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<average label="NCSS" value="12.5"/>
+		<average label="CCN" value="1.8333333333333333"/>
+		<average label="Functions" value="1.6666666666666667"/>
+		<sum label="NCSS" value="75"/>
+		<sum label="CCN" value="11"/>
+		<sum label="Functions" value="10"/>
+		<average label="NCSS" value="3.6"/>
+		<average label="CCN" value="1.1"/>
+	</measure>
+</cppncss>
+

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='ActionsUITests.xctest' tests='7' failures='0'>
+  <testsuite name='ActionsTests.ActionsTests' tests='1' failures='0'>
+    <testcase classname='ActionsTests.ActionsTests' name='testThreeGreaterThanOne' time='0.002'/>
+  </testsuite>
+  <testsuite name='ActionsUITests.ActionsUITests' tests='2' failures='0'>
+    <testcase classname='ActionsUITests.ActionsUITests' name='testExample' time='2.140'/>
+    <testcase classname='ActionsUITests.ActionsUITests' name='testLaunchPerformance' time='78.009'/>
+  </testsuite>
+  <testsuite name='ActionsUITests.ActionsUITestsLaunchTests' tests='4' failures='0'>
+    <testcase classname='ActionsUITests.ActionsUITestsLaunchTests' name='testLaunch' time='5.173'/>
+    <testcase classname='ActionsUITests.ActionsUITestsLaunchTests' name='testLaunch' time='5.495'/>
+    <testcase classname='ActionsUITests.ActionsUITestsLaunchTests' name='testLaunch' time='3.974'/>
+    <testcase classname='ActionsUITests.ActionsUITestsLaunchTests' name='testLaunch' time='5.495'/>
+  </testsuite>
+</testsuites>

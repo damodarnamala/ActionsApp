@@ -16,14 +16,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
     - name: Bundle Install
-      run: bundle install
-    - name: Unit tests
-      run: bundle exec fastlane run_all_test
-
-    - name: Run tests
-      run: swift test --enable-code-coverage
-
-    - name: Code Coverage
-      uses: maxep/spm-lcov-action@0.3.0
-      with:
-        output-file: ./coverage/lcov.info
+      run: |
+        bundle install
+      # brew install sonarqube
+      # brew install sonar-scanner
+      # brew install lizard
+    - name: Metrics
+      run: bundle exec fastlane metrics

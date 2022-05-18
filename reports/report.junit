@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='ActionsTests.xctest' tests='2' failures='0'>
+  <testsuite name='ActionsTests.ActionsTests' tests='1' failures='0'>
+    <testcase classname='ActionsTests.ActionsTests' name='testExampleThreeGreaterThanOne' time='0.003'/>
+  </testsuite>
+  <testsuite name='ActionsTests.ArthimaticSpec' tests='1' failures='0'>
+    <testcase classname='ActionsTests.ArthimaticSpec' name='testDamodar' time='0.003'/>
+  </testsuite>
+</testsuites>
