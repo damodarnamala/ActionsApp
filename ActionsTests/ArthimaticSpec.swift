@@ -9,6 +9,9 @@ import XCTest
 
 class ArthimaticSpec: XCTestCase {
     func testDamodar()  {
-        XCTAssertTrue("Damodar" == "Damodar", "Name should be always equals.")
+        let name1 = "DAModar"
+        let name2 = "amModar"
+
+        XCTAssertTrue(name1.lowercased() == name2.lowercased(), "Name should be always equals.")
     }
 }
