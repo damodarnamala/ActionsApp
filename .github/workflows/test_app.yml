@@ -18,7 +18,7 @@ jobs:
     - name: Bundle Install
       run: |
        sudo pip install lizard
-       fastlane add_plugin lizard
        bundle install
+       bundle update
     - name: Metrics
       run: bundle exec fastlane metrics
