@@ -19,3 +19,11 @@ jobs:
       run: bundle install
     - name: Unit tests
       run: bundle exec fastlane run_all_test
+
+    - name: Run tests
+      run: swift test --enable-code-coverage
+
+    - name: Code Coverage
+      uses: maxep/spm-lcov-action@0.3.0
+      with:
+        output-file: ./coverage/lcov.info
