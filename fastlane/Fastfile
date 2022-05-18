@@ -29,7 +29,7 @@ lane :metrics do
     slather(cobertura_xml: true, jenkins: false, scheme: "Actions", build_directory: "./DerivedData", output_directory: "./reports", proj: "./Actions.xcodeproj")
     #lizard(source_folder: ".", language: "swift", export_type: "xml", report_file: "reports/lizard-report.xml")
     swiftlint(output_file: "./reports/swiftlint.txt", ignore_exit_status: true)
-    sonar
+    #sonar
 end
 end
 
