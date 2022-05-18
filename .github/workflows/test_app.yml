@@ -23,9 +23,6 @@ jobs:
        bundle install
     - name: Metrics
       run: bundle exec fastlane metrics
-    - name: Run tests
-      run: swift test --enable-code-coverage
-    
     - name: Code coverage
       uses: maxep/spm-lcov-action@0.3.0
       with:
