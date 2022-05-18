@@ -22,5 +22,4 @@ jobs:
       # brew install sonar-scanner
       # brew install lizard
     - name: Metrics
-      run: bundle exec fastlane coverage
-      # run: bundle exec fastlane metrics
+      run: bundle exec fastlane metrics
