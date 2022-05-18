@@ -30,6 +30,8 @@
       systemAttachmentLifetime = "keepNever"
       userAttachmentLifetime = "keepAlways"
       codeCoverageEnabled = "YES">
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES">
       <CodeCoverageTargets>
          <BuildableReference
             BuildableIdentifier = "primary"
