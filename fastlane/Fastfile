@@ -33,7 +33,7 @@ platform :ios do
  
   desc "Code Coverages"
   lane :coverage do
-    xcov(proj: "Actions.xcodeproj", scheme: "Actions", output_directory: "./reports/xcov") 
+    xcov(project: "Actions.xcodeproj", scheme: "Actions", output_directory: "./reports/xcov", json_report: true) 
    end
 end
 
