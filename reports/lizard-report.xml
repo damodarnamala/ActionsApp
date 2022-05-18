@@ -109,14 +109,14 @@
 		</item>
 		<item name="./Actions/ContentView.swift">
 			<value>6</value>
-			<value>12</value>
+			<value>13</value>
 			<value>0</value>
 			<value>0</value>
 		</item>
-		<average label="NCSS" value="12.333333333333334"/>
+		<average label="NCSS" value="12.5"/>
 		<average label="CCN" value="1.8333333333333333"/>
 		<average label="Functions" value="1.6666666666666667"/>
-		<sum label="NCSS" value="74"/>
+		<sum label="NCSS" value="75"/>
 		<sum label="CCN" value="11"/>
 		<sum label="Functions" value="10"/>
 		<average label="NCSS" value="3.6"/>
