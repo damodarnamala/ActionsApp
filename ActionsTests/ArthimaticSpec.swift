@@ -10,7 +10,7 @@ import XCTest
 class ArthimaticSpec: XCTestCase {
     func testDamodar()  {
         let name1 = "DAModar"
-        let name2 = "amModar"
+        let name2 = "daModar"
 
         XCTAssertTrue(name1.lowercased() == name2.lowercased(), "Name should be always equals.")
     }
